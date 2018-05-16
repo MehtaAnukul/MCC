@@ -28,14 +28,20 @@
         <activity
             android:name=".Main4Activity"
             android:label="Deshboard"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Main5Activity"
             android:label="@string/title_activity_main5"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".selectVMActivity"
-                  android:label="SelectVM">
-        </activity>
+        <activity
+            android:name=".selectVMActivity"
+            android:label="SelectVM" />
+        <activity
+            android:name=".About_us"
+            android:label="About_us" />
+        <activity android:name=".DeshboardActivity" />
+        <activity android:name=".CreateVMActivity" />
+        <activity android:name=".SettingActivity"></activity>
     </application>
 
 </manifest>

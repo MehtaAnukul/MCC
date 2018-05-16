@@ -86,7 +86,7 @@ public class Main4Activity extends AppCompatActivity
 
         } else if (id == R.id.Tools) {
 
-        } else if (id == R.id.Help) {
+        } else if (id == R.id.About_us) {
 
         } else if (id == R.id.Settings) {
 
