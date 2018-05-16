@@ -2,9 +2,6 @@ package com.example.anukul_pc.mcc;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -13,6 +10,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.google.firebase.auth.FirebaseAuth;
 
 public class Main4Activity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -23,7 +22,6 @@ public class Main4Activity extends AppCompatActivity
         setContentView(R.layout.activity_main4);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -81,15 +79,17 @@ public class Main4Activity extends AppCompatActivity
 
         } else if (id == R.id.SelectVM) {
 
-            final Intent intent = new Intent(Main4Activity.this,selectVMActivity.class);
+            final Intent intent = new Intent(Main4Activity.this, SelectVMActivity.class);
             startActivity(intent);
 
-        } else if (id == R.id.Tools) {
-
-        } else if (id == R.id.About_us) {
+        }  else if (id == R.id.About_us) {
 
         } else if (id == R.id.Settings) {
 
+        } else if (id == R.id.logout) {
+            FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
+            firebaseAuth.signOut();
+            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

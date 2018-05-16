@@ -17,9 +17,9 @@
             android:icon="@drawable/ic_cloud_done_black_24dp"
             android:title="Select VM" />
         <item
-            android:id="@+id/Tools"
-            android:icon="@drawable/ic_build_black_24dp"
-            android:title="Tools" />
+            android:id="@+id/logout"
+            android:icon="@drawable/vector_signout"
+            android:title="Sign out" />
     </group>
 
     <item android:title="Communicate">

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.anukul_pc.mcc.selectVMActivity"
+    tools:context="com.example.anukul_pc.mcc.SelectVMActivity"
     tools:layout_editor_absoluteY="81dp">
 
     <TextView

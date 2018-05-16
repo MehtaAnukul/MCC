@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "70216342812-t6if316uf7c9krj8013hjv6c6art0sp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anukul_pc.mcc",
+            "certificate_hash": "f7f4f648b701b5c5c14b7add086a93f52e8082d0"
+          }
+        },
+        {
           "client_id": "70216342812-ulbkk53pqnvb5c03miqn5sgg05fqgaue.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -27,7 +35,11 @@
           "client_type": 3
         }
       ],
-      "api_key": [{ "current_key": "AIzaSyAPukY4k8zvIoXwvyL56LCjgZmWPHPGUG0" } ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPukY4k8zvIoXwvyL56LCjgZmWPHPGUG0"
+        }
+      ],
       "services": {
         "analytics_service": {
           "status": 1

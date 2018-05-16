@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.anukul_pc.mcc">
 
     <application
@@ -8,7 +9,8 @@
         android:label="MCC"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="ExtraText">
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -19,11 +21,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Main2Activity"
+            android:name=".SignupActivity"
             android:label="Registration" />
-        >
+
         <activity
-            android:name=".Main3Activity"
+            android:name=".LoginActivity"
             android:label="Login" />
         <activity
             android:name=".Main4Activity"
@@ -34,7 +36,7 @@
             android:label="@string/title_activity_main5"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".selectVMActivity"
+            android:name=".SelectVMActivity"
             android:label="SelectVM" />
         <activity
             android:name=".About_us"
@@ -42,6 +44,7 @@
         <activity android:name=".DeshboardActivity" />
         <activity android:name=".CreateVMActivity" />
         <activity android:name=".SettingActivity"></activity>
+
     </application>
 
 </manifest>
