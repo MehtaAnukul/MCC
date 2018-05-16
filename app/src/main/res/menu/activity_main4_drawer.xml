@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Dashboard"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/CreatVM"
+            android:icon="@drawable/ic_cloud_black_24dp"
+            android:title="Creat VM" />
+        <item
+            android:id="@+id/SelectVM"
+            android:icon="@drawable/ic_cloud_done_black_24dp"
+            android:title="Select VM" />
+        <item
+            android:id="@+id/Tools"
+            android:icon="@drawable/ic_build_black_24dp"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/Help"
+                android:icon="@drawable/ic_live_help_black_24dp"
+                android:title="Help" />
+            <item
+                android:id="@+id/Settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+</menu>
