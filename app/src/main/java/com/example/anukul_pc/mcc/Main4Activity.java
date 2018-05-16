@@ -2,9 +2,6 @@ package com.example.anukul_pc.mcc;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -81,7 +78,7 @@ public class Main4Activity extends AppCompatActivity
 
         } else if (id == R.id.SelectVM) {
 
-            final Intent intent = new Intent(Main4Activity.this,selectVMActivity.class);
+            final Intent intent = new Intent(Main4Activity.this,SelectVMActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.Tools) {
