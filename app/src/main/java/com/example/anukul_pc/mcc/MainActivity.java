@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Runnable runnable = new Runnable() {
             @Override
             public void run() {
-                final Intent gotoLogin = new Intent(MainActivity.this, Main2Activity.class);
+                final Intent gotoLogin = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(gotoLogin);
                 finish();
             }
