@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "70216342812",
+    "firebase_url": "https://mcc-app-24eff.firebaseio.com",
+    "project_id": "mcc-app-24eff",
+    "storage_bucket": "mcc-app-24eff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70216342812:android:7a17902da41e9bb7",
+        "android_client_info": {
+          "package_name": "com.example.anukul_pc.mcc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70216342812-ulbkk53pqnvb5c03miqn5sgg05fqgaue.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anukul_pc.mcc",
+            "certificate_hash": "d501e660b46abf1aba05db35c9181a8fc9b4b7c5"
+          }
+        },
+        {
+          "client_id": "70216342812-8pu269pde9h3fp5j2uqgdrsnr53ds1q7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [{ "current_key": "AIzaSyAPukY4k8zvIoXwvyL56LCjgZmWPHPGUG0" } ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70216342812-8pu269pde9h3fp5j2uqgdrsnr53ds1q7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
