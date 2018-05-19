@@ -76,6 +76,8 @@ public class Main4Activity extends AppCompatActivity
 
             // Handle the camera action
         } else if (id == R.id.CreatVM) {
+            final Intent intent = new Intent(Main4Activity.this, CreateVMActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.SelectVM) {
 
@@ -83,8 +85,12 @@ public class Main4Activity extends AppCompatActivity
             startActivity(intent);
 
         }  else if (id == R.id.About_us) {
+            final Intent intent = new Intent(Main4Activity.this,About_us.class);
+            startActivity(intent);
 
         } else if (id == R.id.Settings) {
+            final Intent intent = new Intent(Main4Activity.this,SettingsActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.logout) {
             FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();

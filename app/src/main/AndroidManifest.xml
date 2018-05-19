@@ -23,7 +23,6 @@
         <activity
             android:name=".SignupActivity"
             android:label="Registration" />
-
         <activity
             android:name=".LoginActivity"
             android:label="Login" />
@@ -42,9 +41,18 @@
             android:name=".About_us"
             android:label="About_us" />
         <activity android:name=".DeshboardActivity" />
-        <activity android:name=".CreateVMActivity" />
-        <activity android:name=".SettingActivity"></activity>
+        <activity
+            android:name=".CreateVMActivity"
+            android:label="CreateVM" />
+        <activity android:name=".SettingActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
 
+        <activity android:name=".AndroidImageActivity"
+                  android:label="AndroidVM">
+
+        </activity>
     </application>
 
 </manifest>
