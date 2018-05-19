@@ -7,4 +7,106 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_main5">Main5Activity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="selectram">Select Ram</string>
+    <string name="selectMemory">Select Memory Size</string>
+    <string name="selectvr">Select VM</string>
+    <string name="aboutus">We are developing android application(MCC) that will bring a power of large computing devise to over personal mobile phone using virtual machine and mobile cloud computing. This idea strikes in my mind when I was using my android mobile phone and I found that the mobile devise are facing up with many struggles in their resources(e.g., battery life, storage, and bandwidth) and communication(e.g, privacy, mobility and security). These challenge have great affect in the improvement of services qualities. Using MCC, all the data and complicated computing modules can be in clouds and mobile devices do not need a powerful configuration like CPU speed, memory capacity etc. so using MCC user can create his virtual machine in cloud and he can customize that virtual machine as per his usage like RAM, storage, OS etc. and no need to change in hardware of mobile phone. And he can access that virtual machine from anywhere in the globe using any mobile device connected to internet.</string>
+
+    <string-array name="ramArray">
+        <item>2 GB</item>
+        <item>4 GB</item>
+        <item>6 GB</item>
+        <item>8 GB</item>
+        <item>16 GB</item>
+        <item>32 GB</item>
+    </string-array>
+
+    <string-array name="memoryArray">
+        <item>250 GB</item>
+        <item>500 GB</item>
+        <item>750 GB</item>
+        <item>1 TB</item>
+        <item>2 TB</item>
+        <item>4 TB</item>
+    </string-array>
+
+    <string-array name="virtualArray">
+        <item>Android</item>
+        <item>IOS</item>
+    </string-array>
+
+
 </resources>

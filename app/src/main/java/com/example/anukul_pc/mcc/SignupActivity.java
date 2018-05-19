@@ -120,7 +120,7 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
                                                         Toast.makeText(SignupActivity.this, databaseError.toString(), Toast.LENGTH_SHORT).show();
                                                     } else {
                                                         waitingDialog.dismiss();
-                                                        Toast.makeText(SignupActivity.this, "Success ! Faculty will Verify your account !", Toast.LENGTH_SHORT).show();
+                                                        Toast.makeText(SignupActivity.this, "Registration Successfully done !", Toast.LENGTH_SHORT).show();
                                                         finish();
                                                     }
                                                 }

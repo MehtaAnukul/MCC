@@ -11,27 +11,23 @@
         <item
             android:id="@+id/CreatVM"
             android:icon="@drawable/ic_cloud_black_24dp"
-            android:title="Creat VM" />
+            android:title="Creat_VM" />
         <item
             android:id="@+id/SelectVM"
             android:icon="@drawable/ic_cloud_done_black_24dp"
-            android:title="Select VM" />
-        <item
-            android:id="@+id/Tools"
-            android:icon="@drawable/ic_build_black_24dp"
-            android:title="Tools" />
+            android:title="Select_VM" />
         <item
             android:id="@+id/logout"
             android:icon="@drawable/vector_signout"
-            android:title="Sign out" />
+            android:title="Sign_out" />
     </group>
 
     <item android:title="Communicate">
         <menu>
             <item
-                android:id="@+id/Help"
+                android:id="@+id/About_us"
                 android:icon="@drawable/ic_live_help_black_24dp"
-                android:title="Help" />
+                android:title="About_us" />
             <item
                 android:id="@+id/Settings"
                 android:icon="@drawable/ic_settings_black_24dp"
