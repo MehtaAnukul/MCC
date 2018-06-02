@@ -84,6 +84,7 @@
     <string name="selectMemory">Select Memory Size</string>
     <string name="selectvr">Select VM</string>
     <string name="aboutus">We are developing android application(MCC) that will bring a power of large computing devise to over personal mobile phone using virtual machine and mobile cloud computing. This idea strikes in my mind when I was using my android mobile phone and I found that the mobile devise are facing up with many struggles in their resources(e.g., battery life, storage, and bandwidth) and communication(e.g, privacy, mobility and security). These challenge have great affect in the improvement of services qualities. Using MCC, all the data and complicated computing modules can be in clouds and mobile devices do not need a powerful configuration like CPU speed, memory capacity etc. so using MCC user can create his virtual machine in cloud and he can customize that virtual machine as per his usage like RAM, storage, OS etc. and no need to change in hardware of mobile phone. And he can access that virtual machine from anywhere in the globe using any mobile device connected to internet.</string>
+    <string name="filename">File Name</string>
 
     <string-array name="ramArray">
         <item>2 GB</item>

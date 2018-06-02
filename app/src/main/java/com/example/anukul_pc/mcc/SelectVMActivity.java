@@ -5,16 +5,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class SelectVMActivity extends AppCompatActivity {
 
-    private ImageView img;
+    private TextView img;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_vm);
 
-        img = findViewById(R.id.andtoid_VM);
+        img = findViewById(R.id.textView4);
 
         img.setOnClickListener(new View.OnClickListener() {
             @Override
